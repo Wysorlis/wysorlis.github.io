@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ==================== NAVBAR ======================== */
+
+nav{
+    overflow: hidden;
+    background-color: #e6deb8;
+    position: fixed;
+    width: 100%;
+}
+
+header li{
+    float: right;
+    font-size: 2.0em;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+header li a{
+    text-decoration: none;
+    display: block;
+    
+}
+
+header li a:hover{
+    transform: scale(1.1);
+    transition: all 0.35s ease-in;
+}
+
+#logo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    padding: 18px 25px;
+    float: left;
+}
+
+#logo:hover{
+    transform: scale(1.1);
+    transition: all 0.35s ease-in;
+}
+
+/* ==================== MAIN PICTURE ======================== */
+#mainImage{
+    padding-top: 60px;
+    background: url(Pictures/couture.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 800px;
+    
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(250, 239, 239);
+    font-size: 6em;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-shadow: 1px 3px 2px black;
+}
+
+#line{
+    height: 2px;
+    width: 30%;
+    margin: -3px auto;
+    background-color: rgb(250, 239, 239);
+    box-shadow:1px 2px 2px black;
+}
+
+h3{
+    text-align: center;
+    color: rgb(250, 239, 239);
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+}
+
+/* ==================== MAIN PICTURE ======================== */
+
+#presentation{
+    background-color: #FFFAE1;
+    padding: 10px 0px 100px 0px;
+}
+
+#introText{
+    text-align: justify;
+    padding: 0px 30%;
+}
+
+#presentationPictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 5%;
+}
+
+
+
+.picturesPresent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 2%;
+
+}
+
+.picturesPresent h4{
+    border-radius: 10px;
+}
+
+.picturesPresent img{
+    border-radius: 10px;
+    transition: all ease-in-out 0.1s;
+}
+
+.textPresent{
+    padding: 2% 2%;
+}
+
+.textPresent h4{
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.textPresent p{
+    text-align: justify;
+}
+
+.picturesPresent img:hover{
+    transform: scale(1.05);
+    transition: all 0.35s ease-in;
+}
+
+footer{
+    background-color: #524A3A;
+    color: #e6deb8;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+}
+
+button:hover{
+    background-color: #e55039;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#secondTrace{
+    height: 2px;
+    width: 50%;
+    background-color: #e6deb8;
+    margin: 60px auto;
+}
+
+#copyrigthAndIcons{
+    display: flex;
+    margin-bottom: 40px;
+    padding: 0 10%;
+}
+
+#copyrigth{
+    width: 50%;
+    text-align: left;
+    color: #e6deb8;
+}
+
+#icons{
+    width: 50%;
+    text-align: right;
+}
+
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: #e6deb8;
+}
+
+#icons a:hover {
+    transform: scale(1.5);
+    transition: all 0.35s ease-in;
+}
